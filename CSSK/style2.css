@@ -1,0 +1,611 @@
+body {
+    width: 1920px;
+    margin: 0 auto;
+}
+.header {
+    width: 1920px; 
+    height: 123px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.text-button-container 
+{
+    text-align: center;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.text-button1 
+{
+    padding: 8px;
+    height: 48px;
+    margin-bottom: 8px; 
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: none; 
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    margin-top: 23px;
+    text-decoration: none;
+}
+.text-button2
+{
+    padding: 8px;
+    height: 48px;
+    margin-bottom: 8px; 
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: none; 
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    padding-left: 100px;
+    text-decoration: none;
+    margin-top: 23px;
+}
+
+.text-button3
+{
+    padding: 8px;
+    height: 48px;
+    margin-bottom: 8px; 
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: none; 
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    padding-left: 100px;
+    margin-top: 23px;
+    text-decoration: none;
+}
+.text-button4
+{
+    padding: 8px;
+    height: 48px;
+    margin-bottom: 8px; 
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: none; 
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    padding-left: 100px;
+    margin-top: 23px;
+    text-decoration: none;
+}
+.text-button5 
+{
+    padding: 8px;
+    height: 48px;
+    margin-bottom: 8px; 
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: none; 
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    padding-left: 100px;
+}
+.text-button6 
+{
+    padding: 8px;
+    height: 48px;
+    margin-bottom: 8px; 
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: none; 
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    padding-left: 100px;
+}
+.text-button7 
+{
+    padding: 8px;
+    height: 48px;
+    margin-bottom: 8px; 
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: none; 
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    padding-left: 100px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.logo img {
+    height: 70px;
+    width: 390px;
+}
+.header-text {
+    margin-left: 557px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.vk-ok {
+    display: flex;
+    align-items: center;
+    margin-left: 131px; 
+}
+.vk-ok img {
+    margin-right: 20px; 
+}
+.VK {
+    width: 55px;
+    height: 55px;
+}
+.OK {
+    width: 50px;
+    height: 50px;
+}
+/*тут закончилась шапка*/
+
+.navigation {
+    display: flex;
+    padding: 10px 150px;
+} 
+.navigation a {
+    color: #2E4555;
+    text-decoration: none;
+    padding: 23px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+} 
+/*тут закончилась навигация*/
+
+/*тут началась корзина*/
+.korzina {
+    font-size: 48px;
+    color: #2E4555;
+    margin-left: 150px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.korzina h2 {
+    margin-bottom: 0px;
+}
+.zabronirovannye, .oplachennye {
+    font-size: 24px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.zabronirovannye {
+    color: #2E4555;
+    margin-left: 18px;
+}
+.oplachennye {
+    color: #D9D9D9;
+}
+.blok-linii {
+    display: flex; 
+    gap: 70px; 
+    margin-top: 71px;
+}
+.liniya {
+    margin-top: 10px; 
+    margin-bottom: 60px;
+}
+/*тут закончилась корзина*/
+
+
+/*тут началась карточка 1*/
+.kartochka-1 {
+    width: 800px;
+    height: 219px;
+    background-color: #FFFFFF; 
+    border-radius: 65px; 
+    margin-left: 150px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px 0px rgba(34, 60, 80, 0.2); /* Тень */
+    border: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.klass-knopki {
+    width: 223px;
+    height: 50px;
+    border-radius: 65px;
+    border: none;
+    margin-top: 327px;
+    margin-left: -185px;
+    background-color: #E6641B; 
+    color: #FFFFFF; 
+}
+.bron {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.klass-knopki:hover {
+    background-color: #FADF55; 
+    cursor: pointer;
+    color: #2E4555;
+    transition: background-color 0.5s ease;
+}
+.kartochki-ryad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.kartochka-1,
+.kartochka-3 {
+    width: 800px;
+    height: 219px;
+    background-color: #FFFFFF;
+    border-radius: 65px;
+    box-shadow: 2px 2px 3px 0px rgba(34, 60, 80, 0.2);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+.ikonka1 {
+    margin-right: 12px;
+}
+.ikonka2 {
+    margin-right: 14px;
+}
+.ikonka-chasy,
+.ikonka-mesto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+.ikonka-mesto {
+    margin-top: -30px;
+}
+.ikonka-chasy {
+    margin-top: -10px;
+}
+.tekst-kartochki {
+    display: flex;
+    flex-direction: column;
+    width: 483px;
+    height: 220px;
+} 
+.zagolovok-kartochki {
+    font-size: 24px;
+    font-weight: bold;
+    width: 460px;
+    color: #2e4555;
+} 
+.podzagolovok-kartochki {
+    font-size: 20px;
+    margin-top: -20px;
+    color: #2e4555;
+} 
+.cena-knopka {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: -110px;
+    margin-top: 100px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: -300px;
+    color: #2e4555;
+}
+.kartochka-img {
+    width: 253px;
+    height: 219px;
+    border-radius: 65px; 
+    object-fit: cover; 
+    margin-right: 20px; 
+}
+.nadpis-ikonki {
+    color: #2e4555;
+    font-size: 20px;
+}
+
+/*тут закончилась карточка 1*/
+
+/*тут началась карточка 2*/
+.kartochki-container{
+    display: flex;
+    flex-direction: column;
+}
+.kartochki-ryad{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.kartochka-2 {
+    width: 800px;
+    height: 219px;
+    background-color: #FFFFFF;
+    border-radius: 65px;
+    box-shadow: 2px 2px 3px 0px rgba(34, 60, 80, 0.2);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 150px;
+    margin-top: 20px;   
+}
+.klass-knopki2 {
+    width: 223px;
+    height: 50px;
+    border-radius: 65px;
+    border: none;
+    margin-top: 327px;
+    margin-left: -185px;
+    background-color: #E6641B; 
+    color: #FFFFFF; 
+}
+.bron2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.klass-knopki2:hover {
+    background-color: #FADF55; 
+    cursor: pointer;
+    color: #2E4555;
+    transition: background-color 0.5s ease;
+}
+.kartochki-ryad2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.ikonka1-2 {
+    margin-right: 12px;
+}
+.ikonka2-2 {
+    margin-right: 14px;
+}
+.ikonka-chasy2,
+.ikonka-mesto2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ikonka-mesto2 {
+    margin-top: -30px;
+}
+.ikonka-chasy2 {
+    margin-top: 15px;
+}
+.tekst-kartochki2 {
+    display: flex;
+    flex-direction: column;
+    width: 483px;
+    height: 220px;
+}
+.zagolovok-kartochki2 {
+    font-size: 24px;
+    font-weight: bold;
+    width: 460px;
+    color: #2e4555;
+}
+.podzagolovok-kartochki2 {
+    font-size: 20px;
+    margin-top: -20px;
+    color: #2e4555;
+} 
+.cena-knopka2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: -110px;
+    margin-top: 100px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: -300px;
+    color: #2e4555;
+}
+.kartochka-img2 {
+    width: 253px;
+    height: 219px;
+    border-radius: 65px; 
+    object-fit: cover; 
+    margin-right: 20px; 
+}
+.nadpis-ikonki2 {
+    color: #2e4555;
+    font-size: 20px;
+}
+/*тут кончилась карточка 2*/
+
+/*тут началась карточка 3*/
+.kartochka-3 {
+    width: 800px;
+    height: 219px;
+    background-color: #FFFFFF;
+    border-radius: 65px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px 0px rgba(34, 60, 80, 0.2);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.klass-knopki3 {
+    width: 223px;
+    height: 50px;
+    border-radius: 65px;
+    border: none;
+    margin-top: 310px;
+    margin-left: -185px;
+    background-color: #E6641B; 
+    color: #FFFFFF; 
+}
+.u-knopki3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30px; 
+}
+.bron3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.klass-knopki3:hover {
+    background-color: #FADF55; 
+    cursor: pointer;
+    color: #2e4555;
+    transition: background-color 0.5s ease;
+}
+.kartochki-ryad3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.tekst-kartochki3 {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 220px;
+}
+.zagolovok-kartochki3 {
+    font-size: 24px;
+    width: 460px;
+    color: #2e4555;
+    margin-left: 35px;
+}
+.podzagolovok-kartochki3 {
+    font-size: 32px;
+    margin-top: -20px;
+    color: #2e4555;
+    font-weight: bold;
+    margin-left: 35px;
+} 
+.cena-knopka3 {
+    position: relative; 
+    left: 0px; 
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: -300px;
+    color: #2e4555;
+    width: 150px;
+}
+/*тут закончилась картчока 3*/
+
+.podval {
+    display: flex;
+    align-items: flex-start;
+    height: 439px;
+    width: 1920px;
+    background-color: #2D64A1;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 270px;
+}
+
+.podval img {
+    height: 70px;
+    margin-left: 150px;
+    margin-top: 40px; 
+    order: 0; /* Логотип будет первым */
+}
+
+.podval ul {
+    list-style: none;
+    padding: 0;
+}
+
+.podval ul:last-child {
+    margin-right: 0; 
+}
+
+.podval li {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.podval-ikonki {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.podval-ikonki img{
+    display: flex;
+    align-items: flex-start;
+    margin-left: auto; 
+    margin-right: 20px;
+}
+.VK-podval{
+    width: 55px;
+    min-height: 55px;
+}
+.OK-podval{
+    width: 50px;
+    height: 50px;
+}
+.TG-podval{
+    width: 55px;
+    height: 55px;
+}
+
+
+
+
+
+.vse-vmeste3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 48px;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background-color: #2D64A1;
+    margin-top: 250px;
+    height: 409px;
+}
+.krugosv{
+    padding-right: 230px;
+    padding-left: 60px;
+}
+.o-kamp{
+    padding-right: 120px;
+    margin-left: -80px;
+}
+.uslugii{
+    padding-right: 130px;
+}
+.Projivanie{
+    padding-right: 120px;
+}
+.sasf{
+padding-right: 20px;
+}
+.afas{
+    padding-right: 20px;
+}
+.o-nas-footer{
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: none;
+}
+.fla{
+    color: #2D64A1;
+}
+
+
+
